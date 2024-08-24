@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-# Cada classe representa uma tabela dentro do aplicativo, onde cada coluna eh um elemento dentro dessa classe.
+# Cada classe representa uma tabela dentro do aplicativo polls, onde cada coluna eh um elemento dentro dessa classe.
 # Essa classe representa as perguntas dentro da plataforma.
 class Question(models.Model):
     # Essa coluna ou campo representa o texto da pergunta. Definido como um campo de caracteres (CharField) com limite
